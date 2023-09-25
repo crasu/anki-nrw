@@ -8,11 +8,11 @@
 # Generate sounds
 
 1. Install tts-cli
+   
+    `npm install tts-cli -g`
 
-    npm install tts-cli -g
+3. Generate sound files
 
-2. Generate sound files
-
-    while read f ; do echo $f > "woerter/$f"; tts "woerter/$f" "sound/$f.mp3" --language "de-AT" --voice Vicki --engine neural ; done<wortliste.txt
+    `while read f ; do echo $f > "woerter/$f"; tts "woerter/$f" "sound/$f.mp3" --language "de-AT" --voice Vicki --engine neural ; done<wortliste.txt`
 
 
