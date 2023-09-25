@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+genanki = "0.13.0"
+ipython = "8.15.0"
+flake8 = "6.1.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
