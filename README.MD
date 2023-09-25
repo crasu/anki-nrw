@@ -11,4 +11,4 @@
 
 2. Generate sound files
 
-    for f in $(cat wortliste); do echo $f > woerter/$f; tts woerter/$f sound/$f.mp3 --language "de-AT" --voice Vicki --engine neural ; done
+    while read f ; do echo $f > "woerter/$f"; tts "woerter/$f" "sound/$f.mp3" --language "de-AT" --voice Vicki --engine neural ; done<wortliste.txt
