@@ -2,7 +2,7 @@
 
 1. Install via `pipenv install`
 2. Enter venv shell via `pipenv shell`
-3. Generate sound file
+3. Generate sound files
 4. Run script `python create-anki.py`
 
 # Generate sounds
